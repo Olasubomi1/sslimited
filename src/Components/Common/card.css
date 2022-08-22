@@ -3,6 +3,11 @@
   flex-direction: row;
   text-align: justify;
 }
+.head {
+  font-family: monospace;
+  font-weight: 0.01rem;
+  color: rgb(17, 15, 15);
+}
 .img {
   width: 40%;
   height: 10%;

@@ -6,7 +6,7 @@ function Card({ head, paragraph, cost }) {
     <div className="card">
       <img src="image.webp" className="img" />
       <div className="details">
-        <h1>{head} Module</h1>
+        <h1 className="head">{head} Module</h1>
         <p>
           Manage your {paragraph} in one place with ease and do much more...
           <br />
