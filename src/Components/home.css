@@ -1,0 +1,46 @@
+.col {
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+}
+.left {
+  width: 70%;
+}
+.right {
+  width: 30%;
+  position: fixed;
+  margin-right: 0;
+  top: 0;
+  right: 0;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(170, 176, 177, 0.971);
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 30%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.btn {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: rgba(58, 151, 232, 0.971);
+  width: 40%;
+  height: 10%;
+  border-radius: 20px;
+  border-color: rgba(58, 151, 232, 0.971);
+}
+
+.cloudlet {
+  margin-top: 40px;
+  color: rgba(15, 3, 144, 0.971);
+}
